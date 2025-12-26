@@ -1,0 +1,73 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Lab_sem3_02, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Shape: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Area(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Perimeter(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Print(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ToString(): PrivateScope, Public, Virtual, HideBySig, Abstract
+    Serialize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Deserialize(String): PrivateScope, Public, Static, HideBySig
+Class Circle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Shape
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double Radius 'get ' : 
+  Methods:
+    Area(): PrivateScope, Public, Virtual, HideBySig
+    Perimeter(): PrivateScope, Public, Virtual, HideBySig
+    Print(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Serialize(): PrivateScope, Public, Virtual, HideBySig
+    get_Radius(): PrivateScope, Public, HideBySig, SpecialName
+Class Rectangle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Shape
+    Void .ctor(Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double Height 'get ' : 
+    Double Width 'get ' : 
+  Methods:
+    Area(): PrivateScope, Public, Virtual, HideBySig
+    Perimeter(): PrivateScope, Public, Virtual, HideBySig
+    Print(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Serialize(): PrivateScope, Public, Virtual, HideBySig
+    get_Width(): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+Class Triangle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :Shape
+    Void .ctor(Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double Side3 'get ' : 
+    Double Side2 'get ' : 
+    Double Side1 'get ' : 
+  Methods:
+    Area(): PrivateScope, Public, Virtual, HideBySig
+    Perimeter(): PrivateScope, Public, Virtual, HideBySig
+    Print(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Serialize(): PrivateScope, Public, Virtual, HideBySig
+    get_Side1(): PrivateScope, Public, HideBySig, SpecialName
+    get_Side2(): PrivateScope, Public, HideBySig, SpecialName
+    get_Side3(): PrivateScope, Public, HideBySig, SpecialName
+Class ShapeProcessor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Count 'get ' : 
+  Methods:
+    AddShape(Shape): PrivateScope, Public, HideBySig
+    GenerateReport(): PrivateScope, Public, HideBySig
+    DemonstrateTypeCasting(): PrivateScope, Public, HideBySig
+    SaveToFile(String): PrivateScope, Public, HideBySig
+    LoadFromFile(String): PrivateScope, Public, HideBySig
+    get_Count(): PrivateScope, Public, HideBySig, SpecialName
