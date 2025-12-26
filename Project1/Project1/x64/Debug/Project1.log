@@ -1,0 +1,55 @@
+﻿  main.cpp
+  MyForm.cpp
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(151,70): error C2039: "createMatrixBtn_Click": не является членом "Project1::MyForm".
+  (компиляция исходного файла "main.cpp")
+      C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(15,19):
+       см. объявление "Project1::MyForm"
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(151,70): error C2065: createMatrixBtn_Click: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(151,54): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "main.cpp")
+      C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(151,54):
+      требуется указатель на функцию-член
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(188,70): error C2039: "calcBtn_Click": не является членом "Project1::MyForm".
+  (компиляция исходного файла "main.cpp")
+      C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(15,19):
+       см. объявление "Project1::MyForm"
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(188,70): error C2065: calcBtn_Click: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(188,54): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "main.cpp")
+      C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(188,54):
+      требуется указатель на функцию-член
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(151,70): error C2039: "createMatrixBtn_Click": не является членом "Project1::MyForm".
+  (компиляция исходного файла "MyForm.cpp")
+      C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(15,19):
+       см. объявление "Project1::MyForm"
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(151,70): error C2065: createMatrixBtn_Click: необъявленный идентификатор
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(151,54): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "MyForm.cpp")
+      C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(151,54):
+      требуется указатель на функцию-член
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(188,70): error C2039: "calcBtn_Click": не является членом "Project1::MyForm".
+  (компиляция исходного файла "MyForm.cpp")
+      C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(15,19):
+       см. объявление "Project1::MyForm"
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(188,70): error C2065: calcBtn_Click: необъявленный идентификатор
+  (компиляция исходного файла "MyForm.cpp")
+  
+C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(188,54): error C3924: ошибка в аргументе #2 вызова конструктора делегата "System::EventHandler":
+  (компиляция исходного файла "MyForm.cpp")
+      C:\Users\ishin\source\repos\Project1\Project1\MyForm.h(188,54):
+      требуется указатель на функцию-член
+  
+  Создание кода...
